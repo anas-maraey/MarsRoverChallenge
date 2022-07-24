@@ -1,0 +1,23 @@
+{
+  "name": "anas/mars-rover-challenge",
+  "description": "A squad of robotic rovers is to be landed by NASA on a plateau on Mars, and  a solution is needed to control their navigation on this plateau.",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "anas",
+      "email": "anas.a.maraey@outlook.com"
+    }
+  ],
+  "require": {
+    "ext-readline": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Command\\": "Command",
+      "Domain\\": "Domain",
+      "Service\\": "Service",
+      "Exceptions\\": "Exceptions"
+    }
+  }
+}
