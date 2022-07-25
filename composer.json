@@ -17,7 +17,11 @@
       "Command\\": "Command",
       "Domain\\": "Domain",
       "Service\\": "Service",
-      "Exceptions\\": "Exceptions"
+      "Exceptions\\": "Exceptions",
+      "Tests\\": "Tests"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
   }
 }
